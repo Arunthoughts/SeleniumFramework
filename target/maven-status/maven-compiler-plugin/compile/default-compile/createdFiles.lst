@@ -1,0 +1,8 @@
+mylearnings\resources\ExtentReportsNG.class
+mylearnings\pageobjects\CheckoutPage.class
+mylearnings\pageobjects\ConfirmationPage.class
+mylearnings\pageobjects\OrdersPage.class
+mylearnings\pageobjects\productCatalogue.class
+mylearnings\pageobjects\LogIn.class
+mylearnings\pageobjects\CartPage.class
+mylearnings\abstractcomponents\AbstractComponent.class

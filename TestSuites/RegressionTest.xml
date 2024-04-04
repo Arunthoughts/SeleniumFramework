@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+	<listeners>
+		<listener class-name ="mylearnings.testcomponents.Listeners"/>
+	</listeners>
+  <test thread-count="5" name="EndtoEndTest">
+    <classes>
+      <class name="mylearnings.tests.EndToEndTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="ErrorValidations">
+    <classes>
+      <class name="mylearnings.tests.ErrorValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
